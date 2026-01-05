@@ -1,0 +1,13 @@
+{
+  "title": "Forms",
+  "icon": "ClipboardList",
+  "pages": [
+    "form-dashboard",
+    "form-results",
+    "form-models",
+    "form-payments",
+    "form-tags",
+    "form-statics",
+    "form-settings"
+  ]
+}

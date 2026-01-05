@@ -1,0 +1,13 @@
+{
+  "title": "Formulir",
+  "icon": "ClipboardList",
+  "pages": [
+    "dasbor-formulir",
+    "hasil-formulir",
+    "model-formulir",
+    "cara-bayar",
+    "tag-formulir",
+    "statistik-formulir",
+    "pengaturan-formulir"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Contact",
+  "icon": "Contact",
+  "pages": [
+    "contact-dashboard",
+    "contact",
+    "contact-tags",
+    "links",
+    "lists",
+    "groups"
+  ]
+}

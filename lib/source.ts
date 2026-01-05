@@ -1,25 +1,67 @@
-import { docs } from 'fumadocs-mdx:collections/server';
-import { type InferPageType, loader } from 'fumadocs-core/source';
-import { lucideIconsPlugin } from 'fumadocs-core/source/lucide-icons';
+import { docs } from "fumadocs-mdx:collections/server";
+import { loader, type InferPageType } from "fumadocs-core/source";
+import { lucideIconsPlugin } from "fumadocs-core/source/lucide-icons";
+import { icons } from "lucide-react";
+import { createElement } from "react";
 
-// See https://fumadocs.dev/docs/headless/source-api for more info
+// ──────────────────────────────────────────────────────────────────────────────
+// SOURCE UTAMA
+// ──────────────────────────────────────────────────────────────────────────────
 export const source = loader({
-  baseUrl: '/docs',
+  baseUrl: "/docs",
   source: docs.toFumadocsSource(),
+  // lucideIconsPlugin otomatis menangani properti "icon" di meta.json & frontmatter
   plugins: [lucideIconsPlugin()],
+  icon(name) {
+    if (name && name in icons) {
+      return createElement(icons[name as keyof typeof icons]);
+    }
+  },
+  i18n: {
+    languages: ["en", "id"],
+    defaultLanguage: "en",
+    parser: "dir", // Menggunakan folder /en dan /id sebagai root bahasa
+  },
 });
 
-export function getPageImage(page: InferPageType<typeof source>) {
-  const segments = [...page.slugs, 'image.png'];
+// TYPE AMAN
+export type DocsPage = InferPageType<typeof source>;
 
+// ──────────────────────────────────────────────────────────────────────────────
+// HELPER FUNCTIONS (TETAP DI PERTAHANKAN)
+// ──────────────────────────────────────────────────────────────────────────────
+
+/**
+ * Mendapatkan tree berdasarkan bahasa tertentu.
+ * Note: Dengan i18n aktif, Anda juga bisa menggunakan source.getPageTree(lang)
+ */
+export function getTreeByLang(lang: "id" | "en") {
   return {
-    segments,
-    url: `/og/docs/${segments.join('/')}`,
+    ...source.pageTree,
+    children: source.pageTree.children?.filter((node) => {
+      // Memastikan node hanya berasal dari slug bahasa yang dipilih
+      return node.type === "folder" && node.name.toLowerCase() === lang;
+    }),
   };
 }
 
-export async function getLLMText(page: InferPageType<typeof source>) {
-  const processed = await page.data.getText('processed');
+/**
+ * Menghasilkan URL image untuk Open Graph (OG)
+ */
+export function getPageImage(page: DocsPage) {
+  const segments = [...page.slugs, "image.png"];
+
+  return {
+    segments,
+    url: `/og/docs/${segments.join("/")}`,
+  };
+}
+
+/**
+ * Mengambil teks bersih dari halaman untuk keperluan LLM atau AI
+ */
+export async function getLLMText(page: DocsPage) {
+  const processed = await page.data.getText("processed");
 
   return `# ${page.data.title}
 
