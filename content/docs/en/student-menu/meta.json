@@ -1,6 +1,7 @@
 {
   "pages": [
     "student-profile",
+    "student-attendance",
     "daily-class-schedule",
     "subject-attendance",
     "announcements",

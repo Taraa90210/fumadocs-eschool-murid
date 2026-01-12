@@ -28,10 +28,6 @@ export default async function Page({
       full={false}
       tableOfContent={{
         enabled: true,
-        component:
-          page.data.toc.length > 0 ? undefined : (
-            <div className="hidden lg:block w-[293px] shrink-0" />
-          ),
       }}
     >
       <DocsBody>

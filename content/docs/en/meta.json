@@ -9,6 +9,7 @@
     "---STUDENT MENU---",
     "student-menu/assignments",
     "student-menu/student-profile",
+    "student-menu/student-attendance",
     "student-menu/daily-class-schedule",
     "student-menu/subject-attendance",
     "student-menu/announcements",

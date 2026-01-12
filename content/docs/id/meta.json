@@ -9,6 +9,7 @@
     "---MENU SISWA---",
     "menu-siswa/tugas",
     "menu-siswa/profile-siswa",
+    "menu-siswa/kehadiran-siswa",
     "menu-siswa/jadwal-pelajaran-harian",
     "menu-siswa/absen-mapel",
     "menu-siswa/pengumuman",
