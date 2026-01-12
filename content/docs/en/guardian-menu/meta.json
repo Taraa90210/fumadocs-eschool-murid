@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "child-attendance",
+    "submit-attendance-permit",
+    "child-class-schedule",
+    "subject-attendance",
+    "announcements",
+    "teachers",
+    "holidays",
+    "gallery",
+    "fees",
+    "assignments",
+    "exams",
+    "exam-results",
+    "reports"
+  ]
+}

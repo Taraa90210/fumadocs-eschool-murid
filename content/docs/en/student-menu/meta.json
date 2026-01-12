@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "student-profile",
+    "daily-class-schedule",
+    "subject-attendance",
+    "announcements",
+    "guardian-details",
+    "holidays",
+    "gallery",
+    "assignments",
+    "exams",
+    "exam-results",
+    "reports"
+  ]
+}
