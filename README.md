@@ -1,45 +1,13 @@
-# noboxai
+# Selamat Datang di eSchool
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+<div align="center"><img src="01_banner.png" alt=""></div>
 
-Run development server:
+## <i class="fa-solid">:solid:</i>Selamat Datang di eSchool Siakad Mobile Siswa & Wali
 
-```bash
-npm run dev
-# or
-pnpm dev
-# or
-yarn dev
-```
+Selamat datang di **eSchool Siakad Mobile**, aplikasi pembelajaran digital yang dirancang khusus untuk memberikan kemudahan dan kenyamanan bagi **siswa** dan **orang tua/wali** dalam mengikuti serta memantau kegiatan belajar secara langsung dari perangkat mobile.
 
-Open http://localhost:3000 with your browser to see the result.
+Di dalam aplikasi ini, Anda dapat mengakses berbagai fitur penting — mulai dari **jadwal pelajaran, tugas, dan nilai** bagi siswa, hingga **monitoring perkembangan akademik dan kehadiran anak** bagi orang tua.
 
-## Explore
+Kami hadir untuk membantu Anda memaksimalkan penggunaan eSchool sesuai peran Anda, baik sebagai **pelajar yang aktif belajar**, maupun sebagai **wali yang peduli terhadap pendidikan anak**.
 
-In the project, you can see:
-
-- `lib/source.ts`: Code for content source adapter, [`loader()`](https://fumadocs.dev/docs/headless/source-api) provides the interface to access your content.
-- `lib/layout.shared.tsx`: Shared options for layouts, optional but preferred to keep.
-
-| Route                     | Description                                            |
-| ------------------------- | ------------------------------------------------------ |
-| `app/(home)`              | The route group for your landing page and other pages. |
-| `app/docs`                | The documentation layout and pages.                    |
-| `app/api/search/route.ts` | The Route Handler for search.                          |
-
-### Fumadocs MDX
-
-A `source.config.ts` config file has been included, you can customise different options like frontmatter schema.
-
-Read the [Introduction](https://fumadocs.dev/docs/mdx) for further details.
-
-## Learn More
-
-To learn more about Next.js and Fumadocs, take a look at the following
-resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Fumadocs](https://fumadocs.dev) - learn about Fumadocs
+Mari bersama wujudkan pengalaman belajar yang lebih **cerdas, terarah, dan terhubung** melalui eSchool Mobile.
