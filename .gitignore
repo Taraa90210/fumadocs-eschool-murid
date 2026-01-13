@@ -25,3 +25,5 @@ yarn-error.log*
 .vercel
 next-env.d.ts
 eSchool-Siakad-Mobile-Siswa
+convert.js
+fiximg.js
