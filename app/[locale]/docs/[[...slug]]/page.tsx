@@ -4,6 +4,27 @@ import { source } from "@/lib/source";
 import { DocsPage, DocsBody, DocsTitle } from "fumadocs-ui/page";
 import defaultMdxComponents from "fumadocs-ui/mdx";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug?: string[] }>;
+}): Promise<Metadata> {
+  const { locale, slug } = await params;
+  const page = source.getPage(slug, locale);
+
+  if (!page) {
+    return {
+      title: "Page Not Found",
+    };
+  }
+
+  return {
+    title: page.data.title,
+    description: page.data.description,
+  };
+}
 
 export default async function Page({
   params,
@@ -26,6 +47,9 @@ export default async function Page({
     <DocsPage
       toc={page.data.toc}
       full={false}
+      breadcrumb={{
+        enabled: true,
+      }}
       tableOfContent={{
         enabled: true,
       }}
