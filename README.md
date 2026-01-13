@@ -1,8 +1,8 @@
 # Selamat Datang di eSchool
 
-<div align="center"><img src="01_banner.png" alt=""></div>
+<div align="center"><img src="./public/images/page/01_banner.png" alt=""></div>
 
-## <i class="fa-solid">:solid:</i>Selamat Datang di eSchool Siakad Mobile Siswa & Wali
+## <i class="fa-solid"></i>Selamat Datang di eSchool Siakad Mobile Siswa & Wali
 
 Selamat datang di **eSchool Siakad Mobile**, aplikasi pembelajaran digital yang dirancang khusus untuk memberikan kemudahan dan kenyamanan bagi **siswa** dan **orang tua/wali** dalam mengikuti serta memantau kegiatan belajar secara langsung dari perangkat mobile.
 
