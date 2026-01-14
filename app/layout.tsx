@@ -8,8 +8,8 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    template: "%s | eSchool Mobile",
-    default: "eSchool Mobile",
+    template: "%s | eSchool Murid",
+    default: "eSchool Murid",
   },
   description: "Dokumentasi aplikasi eSchool Mobile untuk siswa dan wali murid",
 };
