@@ -3,14 +3,33 @@ title: Biaya
 icon: ReceiptText
 ---
 
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ReceiptText, History, ChevronRight } from 'lucide-react';
+
 <Cards>
   <Card
-    title="Tagihan"
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ReceiptText className="h-5 w-5 text-fd-primary" />
+          <span>Tagihan</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
     href="tagihan"
     description="Lihat rincian tagihan biaya sekolah yang aktif."
   />
   <Card
-    title="Riwayat Pembayaran"
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <History className="h-5 w-5 text-fd-primary" />
+          <span>Riwayat Pembayaran</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
     href="riwayat"
     description="Cek riwayat transaksi pembayaran yang telah dilakukan."
   />

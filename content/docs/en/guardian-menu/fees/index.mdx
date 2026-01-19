@@ -3,14 +3,33 @@ title: Fees
 icon: ReceiptText
 ---
 
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ReceiptText, History, ChevronRight } from 'lucide-react';
+
 <Cards>
   <Card
-    title="Bill List"
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ReceiptText className="h-5 w-5 text-fd-primary" />
+          <span>Bill List</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
     href="fees/bill-list"
     description="View school payment bills and their status in real-time."
   />  
   <Card
-    title="Payment History"
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <History className="h-5 w-5 text-fd-primary" />
+          <span>Payment History</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
     href="fees/payment-history"
     description="Check the history of payments that have been made."
   />

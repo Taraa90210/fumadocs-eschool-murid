@@ -3,14 +3,33 @@ title: Nilai Ujian
 icon: FileChartColumn
 ---
 
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { FileChartColumn, ChevronRight } from 'lucide-react';
+
 <Cards>
   <Card
-    title="Ujian Online"
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileChartColumn className="h-5 w-5 text-fd-primary" />
+          <span>Ujian Online</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
     href="ujian-online"
     description="Pantau nilai ujian daring (online) yang telah dikerjakan."
   />
   <Card
-    title="Ujian Offline"
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileChartColumn className="h-5 w-5 text-fd-primary" />
+          <span>Ujian Offline</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
     href="ujian-offline"
     description="Lihat nilai ujian luring (offline) yang dikerjakan di sekolah."
   />

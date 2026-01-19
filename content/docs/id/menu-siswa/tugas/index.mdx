@@ -3,14 +3,33 @@ title: Tugas
 icon: Book
 ---
 
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { BookOpen, BookOpenCheck, ChevronRight } from 'lucide-react';
+
 <Cards>
   <Card
-    title="Ditugaskan"
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <BookOpen className="h-5 w-5 text-fd-primary" />
+          <span>Ditugaskan</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
     href="tugas/ditugaskan"
     description="Lihat daftar tugas baru yang perlu dikerjakan."
   />  
   <Card
-    title="Dikumpulkan"
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <BookOpenCheck className="h-5 w-5 text-fd-primary" />
+          <span>Dikumpulkan</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
     href="tugas/dikumpulkan"
     description="Pantau status tugas yang sudah Anda kumpulkan."
   />

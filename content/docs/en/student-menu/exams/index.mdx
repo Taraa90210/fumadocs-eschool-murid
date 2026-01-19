@@ -3,14 +3,33 @@ title: Exams
 icon: Clipboard
 ---
 
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ClipboardPlus, ClipboardMinus, ChevronRight } from 'lucide-react';
+
 <Cards>
   <Card
-    title="Online Exams"
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ClipboardPlus className="h-5 w-5 text-fd-primary" />
+          <span>Online Exams</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
     href="exams/online-exams"
     description="View and take online exams scheduled by the school."
   />  
   <Card
-    title="Offline Exams"
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ClipboardMinus className="h-5 w-5 text-fd-primary" />
+          <span>Offline Exams</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
     href="exams/offline-exams"
     description="Monitor offline exam schedules and details."
   />

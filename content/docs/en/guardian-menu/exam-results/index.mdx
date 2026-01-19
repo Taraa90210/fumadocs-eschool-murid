@@ -3,14 +3,33 @@ title: Exam Results
 icon: FileChartColumn
 ---
 
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { FileChartColumn, ChevronRight } from 'lucide-react';
+
 <Cards>
   <Card
-    title="Online Exam Results"
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileChartColumn className="h-5 w-5 text-fd-primary" />
+          <span>Online Exam Results</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
     href="exam-results/online-exams"
     description="View your child's online exam scores and academic performance."
   />
   <Card
-    title="Offline Exam Results"
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileChartColumn className="h-5 w-5 text-fd-primary" />
+          <span>Offline Exam Results</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
     href="exam-results/offline-exams"
     description="View your child's offline exam scores and academic performance."
   />
