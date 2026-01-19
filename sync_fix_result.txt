@@ -1,0 +1,252 @@
+======================================================================
+Translation Structure Synchronization
+======================================================================
+MODE: APPLY CHANGES (backups will be created)
+======================================================================
+
+
+[FILE] index.mdx
+    [FIX] Heading level: H2 -> H1
+  [UPDATED] index.mdx (backup: index.mdx.bak)
+
+[FILE] kebijakan-dan-keamanan\hubungi-kami.mdx
+  [OK] No changes needed
+
+[FILE] kebijakan-dan-keamanan\keamanan.mdx
+  [OK] No changes needed
+
+[FILE] kebijakan-dan-keamanan\kebijakan-privasi.mdx
+    [FIX] Heading level: H1 -> H3
+  [UPDATED] privacy-policy.mdx (backup: privacy-policy.mdx.bak)
+
+[FILE] kebijakan-dan-keamanan\syarat-dan-ketentuan-layanan.mdx
+  [SKIP] EN file not found: terms-of-service.mdx
+
+[FILE] menu-siswa\absen-mapel.mdx
+    [FIX] Heading level: H4 -> H1
+  [UPDATED] subject-attendance.mdx (backup: subject-attendance.mdx.bak)
+
+[FILE] menu-siswa\detail-wali.mdx
+    [FIX] Heading level: H3 -> H1
+  [UPDATED] guardian-details.mdx (backup: guardian-details.mdx.bak)
+
+[FILE] menu-siswa\ekstrakurikuler.mdx
+    [FIX] Heading level: H3 -> H1
+    [FIX] Heading level: H3 -> H2
+  [UPDATED] extracurricular.mdx (backup: extracurricular.mdx.bak)
+
+[FILE] menu-siswa\galeri.mdx
+    [FIX] Heading level: H3 -> H1
+  [UPDATED] gallery.mdx (backup: gallery.mdx.bak)
+
+[FILE] menu-siswa\hari-libur.mdx
+    [FIX] Heading level: H3 -> H1
+  [UPDATED] holidays.mdx (backup: holidays.mdx.bak)
+
+[FILE] menu-siswa\jadwal-pelajaran-harian.mdx
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] daily-class-schedule.mdx (backup: daily-class-schedule.mdx.bak)
+
+[FILE] menu-siswa\kehadiran-siswa.mdx
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] student-attendance.mdx (backup: student-attendance.mdx.bak)
+
+[FILE] menu-siswa\laporan\index.mdx
+    [FIX] Heading level: H3 -> H1
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] index.mdx (backup: index.mdx.bak)
+
+[FILE] menu-siswa\laporan\penugasan.mdx
+  [SKIP] EN file not found: assigned.mdx
+
+[FILE] menu-siswa\laporan\ujian-daring.mdx
+    [FIX] Heading level: H3 -> H1
+  [UPDATED] online-exams.mdx (backup: online-exams.mdx.bak)
+
+[FILE] menu-siswa\nilai-ujian\index.mdx
+  [OK] No changes needed
+
+[FILE] menu-siswa\nilai-ujian\ujian-offline.mdx
+    [FIX] Heading level: H3 -> H1
+  [UPDATED] offline-exams.mdx (backup: offline-exams.mdx.bak)
+
+[FILE] menu-siswa\nilai-ujian\ujian-online.mdx
+    [FIX] Heading level: H3 -> H1
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] online-exams.mdx (backup: online-exams.mdx.bak)
+
+[FILE] menu-siswa\pengumuman.mdx
+    [FIX] Heading level: H3 -> H1
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] announcements.mdx (backup: announcements.mdx.bak)
+
+[FILE] menu-siswa\profile-siswa.mdx
+    [FIX] Heading level: H3 -> H1
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] student-profile.mdx (backup: student-profile.mdx.bak)
+
+[FILE] menu-siswa\tugas\dikumpulkan.mdx
+    [FIX] Heading level: H4 -> H1
+  [UPDATED] submitted.mdx (backup: submitted.mdx.bak)
+
+[FILE] menu-siswa\tugas\ditugaskan\index.mdx
+  [OK] No changes needed
+
+[FILE] menu-siswa\tugas\ditugaskan\penugasan.mdx
+  [SKIP] EN file not found: assigned.mdx
+
+[FILE] menu-siswa\tugas\index.mdx
+  [OK] No changes needed
+
+[FILE] menu-siswa\ujian\index.mdx
+  [OK] No changes needed
+
+[FILE] menu-siswa\ujian\ujian-offline.mdx
+    [FIX] Heading level: H4 -> H1
+    [FIX] Heading level: H4 -> H1
+  [UPDATED] offline-exams.mdx (backup: offline-exams.mdx.bak)
+
+[FILE] menu-siswa\ujian\ujian-online\index.mdx
+  [OK] No changes needed
+
+[FILE] menu-siswa\ujian\ujian-online\pengerjaan-ujian-online.mdx
+  [SKIP] EN file not found: taking-online-exams.mdx
+
+[FILE] menu-wali\absen-mapel.mdx
+    [FIX] Heading level: H4 -> H1
+  [UPDATED] subject-attendance.mdx (backup: subject-attendance.mdx.bak)
+
+[FILE] menu-wali\biaya\index.mdx
+  [OK] No changes needed
+
+[FILE] menu-wali\biaya\riwayat.mdx
+    [FIX] Heading level: H3 -> H1
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] payment-history.mdx (backup: payment-history.mdx.bak)
+
+[FILE] menu-wali\biaya\tagihan.mdx
+    [FIX] Heading level: H4 -> H1
+  [UPDATED] bill-list.mdx (backup: bill-list.mdx.bak)
+
+[FILE] menu-wali\galeri.mdx
+    [FIX] Heading level: H3 -> H1
+  [UPDATED] gallery.mdx (backup: gallery.mdx.bak)
+
+[FILE] menu-wali\guru.mdx
+    [FIX] Heading level: H4 -> H1
+  [UPDATED] teachers.mdx (backup: teachers.mdx.bak)
+
+[FILE] menu-wali\hari-libur.mdx
+  [OK] No changes needed
+
+[FILE] menu-wali\jadwal-pelajaran-anak.mdx
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] child-class-schedule.mdx (backup: child-class-schedule.mdx.bak)
+
+[FILE] menu-wali\kehadiran-anak.mdx
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] child-attendance.mdx (backup: child-attendance.mdx.bak)
+
+[FILE] menu-wali\laporan\index.mdx
+    [FIX] Heading level: H3 -> H1
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] index.mdx (backup: index.mdx.bak)
+
+[FILE] menu-wali\laporan\penugasan.mdx
+  [SKIP] EN file not found: assigned.mdx
+
+[FILE] menu-wali\laporan\ujian-daring.mdx
+    [FIX] Heading level: H3 -> H1
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] online-exams.mdx (backup: online-exams.mdx.bak)
+
+[FILE] menu-wali\mengajukan-izin-kehadiran.mdx
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] submit-attendance-permit.mdx (backup: submit-attendance-permit.mdx.bak)
+
+[FILE] menu-wali\nilai-ujian\index.mdx
+  [OK] No changes needed
+
+[FILE] menu-wali\nilai-ujian\ujian-offline.mdx
+  [OK] No changes needed
+
+[FILE] menu-wali\nilai-ujian\ujian-online.mdx
+    [FIX] Heading level: H3 -> H1
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] online-exams.mdx (backup: online-exams.mdx.bak)
+
+[FILE] menu-wali\pengumuman.mdx
+    [FIX] Heading level: H3 -> H1
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] announcements.mdx (backup: announcements.mdx.bak)
+
+[FILE] menu-wali\tugas\index.mdx
+  [OK] No changes needed
+
+[FILE] menu-wali\tugas\pengumpulan-tugas.mdx
+    [FIX] Heading level: H4 -> H1
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] submission.mdx (backup: submission.mdx.bak)
+
+[FILE] menu-wali\tugas\penugasan.mdx
+    [FIX] Heading level: H4 -> H1
+  [UPDATED] assigned.mdx (backup: assigned.mdx.bak)
+
+[FILE] menu-wali\ujian\index.mdx
+  [OK] No changes needed
+
+[FILE] menu-wali\ujian\ujian-offline.mdx
+    [FIX] Heading level: H3 -> H1
+    [FIX] Heading level: H4 -> H2
+    [FIX] Heading level: H4 -> H2
+  [UPDATED] offline-exams.mdx (backup: offline-exams.mdx.bak)
+
+[FILE] menu-wali\ujian\ujian-online.mdx
+    [FIX] Heading level: H4 -> H1
+  [UPDATED] online-exams.mdx (backup: online-exams.mdx.bak)
+
+[FILE] panduan-pengguna-baru\login.mdx
+    [FIX] Heading level: H3 -> H1
+  [UPDATED] login.mdx (backup: login.mdx.bak)
+
+[FILE] pengaturan-personal\ubah-password.mdx
+    [FIX] Heading level: H3 -> H1
+  [UPDATED] change-password.mdx (backup: change-password.mdx.bak)
+
+[FILE] pengenalan\gambaran-umum.mdx
+    [FIX] Heading level: H4 -> H1
+  [UPDATED] overview.mdx (backup: overview.mdx.bak)
+
+[FILE] pengenalan\tampilan-eschool-mobile.mdx
+    [FIX] Heading level: H2 -> H1
+  [UPDATED] eschool-mobile-interface.mdx (backup: eschool-mobile-interface.mdx.bak)
+
+[FILE] penyelesaian-masalah\lupa-password.mdx
+  [SKIP] EN file not found: forgot-password.mdx
+
+[FILE] penyelesaian-masalah\masalah-user-tidak-bisa-login.mdx
+  [SKIP] EN file not found: user-cannot-login.mdx
+
+======================================================================
+SUMMARY
+======================================================================
+Total files processed:  57
+Files updated:          37
+Files skipped:          7
+No changes needed:      13
+======================================================================

@@ -1,0 +1,369 @@
+======================================================================
+Translation Structure Synchronization Analysis
+======================================================================
+ID directory: C:\Users\LENOVO LOQ I7\UBIG\fumadocs-eschool-murid\content\docs\id
+EN directory: C:\Users\LENOVO LOQ I7\UBIG\fumadocs-eschool-murid\content\docs\en
+
+Found 57 ID files
+
+
+[FILE] index.mdx
+  [OK] Headings: 1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H2
+  [OK] List items: 0
+
+[FILE] kebijakan-dan-keamanan\hubungi-kami.mdx
+  [OK] Headings: 3
+  [OK] List items: 3
+
+[FILE] kebijakan-dan-keamanan\keamanan.mdx
+  [OK] Headings: 5
+  [OK] List items: 3
+
+[FILE] kebijakan-dan-keamanan\kebijakan-privasi.mdx
+  [WARNING] Headings mismatch: ID=4, EN=5
+    [WARNING] Heading 1 level mismatch: ID=H3, EN=H1
+    [WARNING] Heading 2 level mismatch: ID=H4, EN=H3
+  [OK] List items: 20
+
+[MISSING] kebijakan-dan-keamanan\syarat-dan-ketentuan-layanan.mdx
+  EN file not found: policies-and-security\terms-of-service.mdx
+
+[FILE] menu-siswa\absen-mapel.mdx
+  [WARNING] Headings mismatch: ID=3, EN=1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H4
+  [OK] List items: 10
+
+[FILE] menu-siswa\detail-wali.mdx
+  [WARNING] Headings mismatch: ID=2, EN=1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+  [OK] List items: 3
+
+[FILE] menu-siswa\ekstrakurikuler.mdx
+  [WARNING] Headings mismatch: ID=2, EN=5
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H3
+  [WARNING] List items mismatch: ID=21, EN=16
+  [WARNING] 12 list items have different indentation
+
+[FILE] menu-siswa\galeri.mdx
+  [WARNING] Headings mismatch: ID=2, EN=1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+  [OK] List items: 7
+
+[FILE] menu-siswa\hari-libur.mdx
+  [WARNING] Headings mismatch: ID=2, EN=1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+  [OK] List items: 4
+
+[FILE] menu-siswa\jadwal-pelajaran-harian.mdx
+  [OK] Headings: 3
+    [WARNING] Heading 1 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 3 level mismatch: ID=H2, EN=H4
+  [OK] List items: 4
+
+[FILE] menu-siswa\kehadiran-siswa.mdx
+  [OK] Headings: 3
+    [WARNING] Heading 1 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 3 level mismatch: ID=H2, EN=H4
+  [OK] List items: 6
+
+[FILE] menu-siswa\laporan\index.mdx
+  [OK] Headings: 3
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 3 level mismatch: ID=H2, EN=H4
+  [OK] List items: 5
+
+[MISSING] menu-siswa\laporan\penugasan.mdx
+  EN file not found: student-menu\reports\assigned.mdx
+
+[FILE] menu-siswa\laporan\ujian-daring.mdx
+  [WARNING] Headings mismatch: ID=1, EN=4
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+  [WARNING] List items mismatch: ID=20, EN=17
+  [WARNING] 14 list items have different indentation
+
+[FILE] menu-siswa\nilai-ujian\index.mdx
+  [OK] Headings: 0
+  [OK] List items: 0
+
+[FILE] menu-siswa\nilai-ujian\ujian-offline.mdx
+  [WARNING] Headings mismatch: ID=1, EN=5
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+  [WARNING] List items mismatch: ID=16, EN=11
+  [WARNING] 7 list items have different indentation
+
+[FILE] menu-siswa\nilai-ujian\ujian-online.mdx
+  [OK] Headings: 4
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 3 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 4 level mismatch: ID=H2, EN=H4
+  [OK] List items: 17
+
+[FILE] menu-siswa\pengumuman.mdx
+  [OK] Headings: 3
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 3 level mismatch: ID=H2, EN=H4
+  [OK] List items: 16
+
+[FILE] menu-siswa\profile-siswa.mdx
+  [OK] Headings: 2
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+  [OK] List items: 10
+
+[FILE] menu-siswa\tugas\dikumpulkan.mdx
+  [WARNING] Headings mismatch: ID=2, EN=1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H4
+  [WARNING] List items mismatch: ID=12, EN=11
+  [WARNING] 8 list items have different indentation
+
+[FILE] menu-siswa\tugas\ditugaskan\index.mdx
+  [OK] Headings: 1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+  [OK] List items: 14
+
+[MISSING] menu-siswa\tugas\ditugaskan\penugasan.mdx
+  EN file not found: student-menu\assignments\assigned\assigned.mdx
+
+[FILE] menu-siswa\tugas\index.mdx
+  [OK] Headings: 0
+  [OK] List items: 0
+
+[FILE] menu-siswa\ujian\index.mdx
+  [OK] Headings: 0
+  [OK] List items: 0
+
+[FILE] menu-siswa\ujian\ujian-offline.mdx
+  [WARNING] Headings mismatch: ID=2, EN=3
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H1, EN=H4
+  [OK] List items: 8
+
+[FILE] menu-siswa\ujian\ujian-online\index.mdx
+  [WARNING] Headings mismatch: ID=3, EN=1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H4
+  [WARNING] List items mismatch: ID=16, EN=14
+  [WARNING] 10 list items have different indentation
+
+[MISSING] menu-siswa\ujian\ujian-online\pengerjaan-ujian-online.mdx
+  EN file not found: student-menu\exams\online-exams\taking-online-exams.mdx
+
+[FILE] menu-wali\absen-mapel.mdx
+  [WARNING] Headings mismatch: ID=4, EN=1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H4
+  [OK] List items: 11
+
+[FILE] menu-wali\biaya\index.mdx
+  [OK] Headings: 0
+  [OK] List items: 0
+
+[FILE] menu-wali\biaya\riwayat.mdx
+  [WARNING] Headings mismatch: ID=2, EN=4
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+  [OK] List items: 23
+
+[FILE] menu-wali\biaya\tagihan.mdx
+  [WARNING] Headings mismatch: ID=1, EN=2
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H4
+  [WARNING] List items mismatch: ID=11, EN=9
+  [WARNING] 7 list items have different indentation
+
+[FILE] menu-wali\galeri.mdx
+  [WARNING] Headings mismatch: ID=2, EN=1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+  [OK] List items: 7
+
+[FILE] menu-wali\guru.mdx
+  [WARNING] Headings mismatch: ID=3, EN=1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H4
+  [OK] List items: 6
+
+[FILE] menu-wali\hari-libur.mdx
+  [OK] Headings: 1
+  [OK] List items: 3
+
+[FILE] menu-wali\jadwal-pelajaran-anak.mdx
+  [OK] Headings: 3
+    [WARNING] Heading 1 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 3 level mismatch: ID=H2, EN=H4
+  [OK] List items: 4
+
+[FILE] menu-wali\kehadiran-anak.mdx
+  [OK] Headings: 3
+    [WARNING] Heading 1 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 3 level mismatch: ID=H2, EN=H4
+  [OK] List items: 6
+
+[FILE] menu-wali\laporan\index.mdx
+  [OK] Headings: 3
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 3 level mismatch: ID=H2, EN=H4
+  [OK] List items: 5
+
+[MISSING] menu-wali\laporan\penugasan.mdx
+  EN file not found: guardian-menu\reports\assigned.mdx
+
+[FILE] menu-wali\laporan\ujian-daring.mdx
+  [WARNING] Headings mismatch: ID=2, EN=4
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+  [WARNING] List items mismatch: ID=20, EN=17
+  [WARNING] 14 list items have different indentation
+
+[FILE] menu-wali\mengajukan-izin-kehadiran.mdx
+  [OK] Headings: 2
+    [WARNING] Heading 1 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+  [OK] List items: 14
+
+[FILE] menu-wali\nilai-ujian\index.mdx
+  [OK] Headings: 0
+  [OK] List items: 0
+
+[FILE] menu-wali\nilai-ujian\ujian-offline.mdx
+  [WARNING] Headings mismatch: ID=1, EN=6
+  [WARNING] List items mismatch: ID=18, EN=13
+  [WARNING] 9 list items have different indentation
+
+[FILE] menu-wali\nilai-ujian\ujian-online.mdx
+  [OK] Headings: 4
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 3 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 4 level mismatch: ID=H2, EN=H4
+  [OK] List items: 17
+
+[FILE] menu-wali\pengumuman.mdx
+  [WARNING] Headings mismatch: ID=2, EN=3
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+  [WARNING] List items mismatch: ID=18, EN=16
+  [WARNING] 10 list items have different indentation
+
+[FILE] menu-wali\tugas\index.mdx
+  [OK] Headings: 0
+  [OK] List items: 0
+
+[FILE] menu-wali\tugas\pengumpulan-tugas.mdx
+  [WARNING] Headings mismatch: ID=3, EN=2
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H4
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+  [OK] List items: 8
+
+[FILE] menu-wali\tugas\penugasan.mdx
+  [WARNING] Headings mismatch: ID=4, EN=1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H4
+  [OK] List items: 13
+  [WARNING] 6 list items have different indentation
+
+[FILE] menu-wali\ujian\index.mdx
+  [OK] Headings: 0
+  [OK] List items: 0
+
+[FILE] menu-wali\ujian\ujian-offline.mdx
+  [OK] Headings: 3
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H4
+    [WARNING] Heading 3 level mismatch: ID=H2, EN=H4
+  [OK] List items: 8
+
+[FILE] menu-wali\ujian\ujian-online.mdx
+  [WARNING] Headings mismatch: ID=3, EN=1
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H4
+  [WARNING] List items mismatch: ID=16, EN=14
+  [WARNING] 10 list items have different indentation
+
+[FILE] panduan-pengguna-baru\login.mdx
+  [WARNING] Headings mismatch: ID=2, EN=5
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+    [WARNING] Heading 2 level mismatch: ID=H2, EN=H3
+  [WARNING] List items mismatch: ID=22, EN=19
+  [WARNING] 16 list items have different indentation
+
+[MISSING] pengaturan-personal\ubah-password.mdx
+  EN file not found: pengaturan-personal\ubah-password.mdx
+
+[FILE] pengenalan\gambaran-umum.mdx
+  [WARNING] Headings mismatch: ID=1, EN=3
+    [WARNING] Heading 1 level mismatch: ID=H1, EN=H3
+  [WARNING] List items mismatch: ID=14, EN=11
+  [WARNING] 9 list items have different indentation
+
+[FILE] pengenalan\tampilan-eschool-mobile.mdx
+  [OK] Headings: 4
+    [WARNING] Heading 2 level mismatch: ID=H1, EN=H2
+  [OK] List items: 4
+
+[MISSING] penyelesaian-masalah\lupa-password.mdx
+  EN file not found: troubleshooting\forgot-password.mdx
+
+[MISSING] penyelesaian-masalah\masalah-user-tidak-bisa-login.mdx
+  EN file not found: troubleshooting\user-cannot-login.mdx
+
+======================================================================
+SUMMARY
+======================================================================
+Total ID files:        57
+Matched & aligned:     10
+Structure mismatched:  39
+EN file missing:       8
+======================================================================
+
+47 files need attention:
+  - index.mdx
+  - kebijakan-dan-keamanan\kebijakan-privasi.mdx
+  - kebijakan-dan-keamanan\syarat-dan-ketentuan-layanan.mdx
+  - menu-siswa\absen-mapel.mdx
+  - menu-siswa\detail-wali.mdx
+  - menu-siswa\ekstrakurikuler.mdx
+  - menu-siswa\galeri.mdx
+  - menu-siswa\hari-libur.mdx
+  - menu-siswa\jadwal-pelajaran-harian.mdx
+  - menu-siswa\kehadiran-siswa.mdx
+  - menu-siswa\laporan\index.mdx
+  - menu-siswa\laporan\penugasan.mdx
+  - menu-siswa\laporan\ujian-daring.mdx
+  - menu-siswa\nilai-ujian\ujian-offline.mdx
+  - menu-siswa\nilai-ujian\ujian-online.mdx
+  - menu-siswa\pengumuman.mdx
+  - menu-siswa\profile-siswa.mdx
+  - menu-siswa\tugas\dikumpulkan.mdx
+  - menu-siswa\tugas\ditugaskan\index.mdx
+  - menu-siswa\tugas\ditugaskan\penugasan.mdx
+  - menu-siswa\ujian\ujian-offline.mdx
+  - menu-siswa\ujian\ujian-online\index.mdx
+  - menu-siswa\ujian\ujian-online\pengerjaan-ujian-online.mdx
+  - menu-wali\absen-mapel.mdx
+  - menu-wali\biaya\riwayat.mdx
+  - menu-wali\biaya\tagihan.mdx
+  - menu-wali\galeri.mdx
+  - menu-wali\guru.mdx
+  - menu-wali\jadwal-pelajaran-anak.mdx
+  - menu-wali\kehadiran-anak.mdx
+  - menu-wali\laporan\index.mdx
+  - menu-wali\laporan\penugasan.mdx
+  - menu-wali\laporan\ujian-daring.mdx
+  - menu-wali\mengajukan-izin-kehadiran.mdx
+  - menu-wali\nilai-ujian\ujian-offline.mdx
+  - menu-wali\nilai-ujian\ujian-online.mdx
+  - menu-wali\pengumuman.mdx
+  - menu-wali\tugas\pengumpulan-tugas.mdx
+  - menu-wali\tugas\penugasan.mdx
+  - menu-wali\ujian\ujian-offline.mdx
+  - menu-wali\ujian\ujian-online.mdx
+  - panduan-pengguna-baru\login.mdx
+  - pengaturan-personal\ubah-password.mdx
+  - pengenalan\gambaran-umum.mdx
+  - pengenalan\tampilan-eschool-mobile.mdx
+  - penyelesaian-masalah\lupa-password.mdx
+  - penyelesaian-masalah\masalah-user-tidak-bisa-login.mdx
